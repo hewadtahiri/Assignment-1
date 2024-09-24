@@ -1,0 +1,22 @@
+.navbar {
+    width: 100px;
+    padding-top: 10px;
+}
+
+.navbar a {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.content {
+    margin-left: 120px;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 16px;
+}
