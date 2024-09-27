@@ -1,22 +1,9 @@
-.navbar {
-    width: 150px;
-    padding-top: 15px;
-}
+@media (min-width: 601px) and (max-width: 900px) {
+    .container {
+        padding: 15px;
+    }
 
-.navbar a {
-    font-size: 16px;
-    padding: 12px;
-}
-
-.content {
-    margin-left: 170px;
-    padding: 15px;
-}
-
-h1 {
-    font-size: 32px;
-}
-
-p {
-    font-size: 17px;
+    nav ul li {
+        float: left;
+    }
 }

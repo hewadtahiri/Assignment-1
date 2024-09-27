@@ -1,22 +1,11 @@
-.navbar {
-    width: 200px;
-    padding-top: 20px;
-}
+@media (min-width: 901px) {
+    .container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px;
+    }
 
-.navbar a {
-    font-size: 18px;
-    padding: 15px;
-}
-
-.content {
-    margin-left: 220px;
-    padding: 20px;
-}
-
-h1 {
-    font-size: 36px;
-}
-
-p {
-    font-size: 18px;
+    nav ul li {
+        float: left;
+    }
 }
