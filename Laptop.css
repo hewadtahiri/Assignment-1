@@ -1,11 +1,11 @@
 @media (min-width: 901px) {
-    .container {
-        max-width: 1200px;
-        margin: auto;
-        padding: 20px;
-    }
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
 
-    nav ul li {
-        float: left;
-    }
+  nav ul li {
+    float: left;
+  }
 }

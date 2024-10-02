@@ -1,9 +1,9 @@
 @media (min-width: 601px) and (max-width: 900px) {
-    .container {
-        padding: 15px;
-    }
+  .container {
+    padding: 15px;
+  }
 
-    nav ul li {
-        float: left;
-    }
+  nav ul li {
+    float: left;
+  }
 }
