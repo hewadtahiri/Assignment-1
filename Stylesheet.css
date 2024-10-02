@@ -78,6 +78,33 @@ main {
     margin-right: auto;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.picture {
+    width: auto;
+    height: 500px;
+}
+
+.video {
+    height: 500px;
+    width: auto;
+}
+
+.description {
+    text-align: center;
+    max-width: 1250px;
+    margin: 10px auto;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
 .projects {
     text-align: center;
 }
@@ -105,7 +132,7 @@ main {
     margin-top: 10px;
 }
 
-.form {
+.contactme {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
@@ -114,17 +141,17 @@ main {
     border-radius: 8px;
 }
 
-.form label {
+.contactme label {
     display: block;
     margin-bottom: 10px;
     font-size: 1.2rem;
     font-weight: 700;
 }
 
-.form input[type="text"],
-.form input[type="email"],
-.form input[type="tel"],
-.form textarea {
+.contactme input[type="text"],
+.contactme input[type="email"],
+.contactme input[type="tel"],
+.contactme textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
@@ -133,12 +160,12 @@ main {
     font-size: 1rem;
 }
 
-.form textarea {
+.contactme textarea {
     height: 150px;
     resize: none;
 }
 
-.form .submit-btn {
+.contactme .submit-btn {
     display: block;
     width: 100%;
     padding: 12px;
@@ -151,7 +178,7 @@ main {
     cursor: pointer;
 }
 
-.form .submit-btn:hover {
+.contactme .submit-btn:hover {
     color: #FFD700;
 }
 
