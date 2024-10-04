@@ -1,9 +1,7 @@
-@media only screen and (max-width: 600px) {
-  .title h1 {
-    font-size: 1.8rem;
-  }
+.title h1 {
+  font-size: 1.8rem;
+}
 
-  .projects-grid {
-    grid-template-columns: repeat(auto-fill, minmax(90vw, 1fr));
-  }
+.projects-grid {
+  grid-template-columns: repeat(auto-fill, minmax(90vw, 1fr));
 }
