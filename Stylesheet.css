@@ -4,13 +4,12 @@
   box-sizing: border-box;
 }
 
-html,
-body {
+html, body {
   height: 100%;
+  font-family: "Lexend", sans-serif;
 }
 
 body {
-  font-family: "Lexend", sans-serif;
   display: flex;
   flex-direction: column;
 }
@@ -46,36 +45,24 @@ main {
   flex: 1;
 }
 
-.title h1 {
-  font-size: 2.5rem;
-  font-weight: 700;
+.title, .title2 {
   text-align: center;
 }
 
-.title p {
+.title h1, .title2 h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.title p, .title2 p {
   font-size: 1.2rem;
   font-weight: 400;
-  text-align: center;
   max-width: 800px;
-  margin-bottom: 50px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.title2 h1 {
-  font-size: 2.5rem;
-  font-weight: 700;
-  text-align: center;
+  margin: 0 auto 50px;
 }
 
 .title2 p {
-  font-size: 1.2rem;
-  font-weight: 400;
-  text-align: center;
-  max-width: 800px;
   margin-bottom: 150px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .container {
@@ -83,18 +70,13 @@ main {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  margin: auto;
   max-width: 1200px;
+  margin: auto;
 }
 
 .picture, .video {
-  height: 500px;
   width: auto;
-}
-
-.video {
   height: 500px;
-  width: auto;
 }
 
 .description {
@@ -117,13 +99,13 @@ main {
 }
 
 .projects h2 {
-  font-weight: 700;
   font-size: 2rem;
+  font-weight: 700;
 }
 
 .projects h3 {
-  font-weight: 400;
   font-size: 1.2rem;
+  font-weight: 400;
 }
 
 .projects video {
@@ -144,6 +126,7 @@ main {
 .contactme label {
   display: block;
   margin-bottom: 10px;
+  text-align: left;
   font-size: 1.2rem;
   font-weight: 700;
 }
@@ -173,8 +156,8 @@ main {
   color: white;
   border: none;
   border-radius: 4px;
-  font-weight: 700;
   font-size: 1.2rem;
+  font-weight: 700;
   cursor: pointer;
 }
 
