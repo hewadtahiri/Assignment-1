@@ -1,11 +1,10 @@
-@media (min-width: 901px) {
-  .container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px;
-  }
 
-  nav ul li {
-    float: left;
-  }
+/* Laptop.css */
+.container {
+  max-width: 1200px;
+}
+
+.picture, .video {
+  height: 500px;
+  width: auto;
 }

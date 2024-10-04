@@ -87,9 +87,9 @@ main {
   max-width: 1200px;
 }
 
-.picture {
-  width: auto;
+.picture, .video {
   height: 500px;
+  width: auto;
 }
 
 .video {
